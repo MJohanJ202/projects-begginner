@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Card Shoes Component</title>
+		<link rel="stylesheet" href="styles/index.css" />
+		<link rel="stylesheet" href="styles/normalize.css" />
+		<script defer src="js/main.js"></script>
+	</head>
+	<body>
+		<main class="main flex-center">
+			<section class="container-card">
+				<article class="card ps-relative">
+					<div class="card__img-bx ps-absolute flex-center">
+						<img id="cardShoesImg" alt="nike running shoes" src="assets/running-shoes-lime.png" />
+					</div>
+					<div class="card__content-bx">
+						<h2 class="card__title">Nike Shoes</h2>
+						<form id="cardFormShoes" class="card__form-shoes">
+							<fieldset class="size flex-center">
+								<legend class="card__subtitle">Size:</legend>
+								<div class="size__group">
+									<input
+										class="size__input"
+										id="shoesSize7"
+										name="shoesSize"
+										type="radio"
+									/>
+									<label for="shoesSize7" class="size__label flex-center"
+										>7</label
+									>
+								</div>
+								<div class="size__group">
+									<input
+										class="size__input"
+										id="shoesSize8"
+										name="shoesSize"
+										type="radio"
+									/>
+									<label for="shoesSize8" class="size__label flex-center"
+										>8</label
+									>
+								</div>
+								<div class="size__group">
+									<input
+										class="size__input"
+										id="shoesSize9"
+										name="shoesSize"
+										type="radio"
+									/>
+									<label for="shoesSize9" class="size__label flex-center"
+										>9</label
+									>
+								</div>
+								<div class="size__group">
+									<input
+										class="size__input"
+										id="shoesSize10"
+										name="shoesSize"
+										type="radio"
+									/>
+									<label for="shoesSize10" class="size__label flex-center"
+										>10</label
+									>
+								</div>
+							</fieldset>
+							<fieldset class="color flex-center">
+								<legend class="card__subtitle">Color:</legend>
+								<div class="color__group">
+									<input
+										class="color__input"
+										data-color="hsl(80, 99%, 64%)"
+										id="shoesLime"
+										name="shoesColor"
+										type="radio"
+										value="running-shoes-lime"
+									/>
+									<label
+										for="shoesLime"
+										class="flex-center color__label color__label--lime"
+									></label>
+								</div>
+								<div class="color__group">
+									<input
+										class="color__input"
+										data-color="hsl(184, 100%, 36%)"
+										id="shoesCyan"
+										name="shoesColor"
+										type="radio"
+										value="running-shoes-cyan"
+									/>
+									<label
+										for="shoesCyan"
+										class="flex-center color__label color__label--cyan"
+									></label>
+								</div>
+								<div class="color__group">
+									<input
+										class="color__input"
+										data-color="hsl(7, 100%, 61%)"
+										id="shoesRed"
+										name="shoesColor"
+										type="radio"
+										value="running-shoes-red"
+									/>
+									<label
+										for="shoesRed"
+										class="flex-center color__label color__label--red"
+									></label>
+								</div>
+								<div class="color__group">
+									<input
+										class="color__input"
+										data-color="hsl(340, 1%, 40%)"
+										id="shoesDark"
+										name="shoesColor"
+										type="radio"
+										value="running-shoes-dark"
+									/>
+									<label
+										for="shoesDark"
+										class="flex-center color__label color__label--dark"
+									></label>
+								</div>
+								<div class="color__group">
+									<input
+										class="color__input"
+										data-color="hsl(344, 89%, 48%)"
+										id="shoesPink"
+										name="shoesColor"
+										type="radio"
+										value="running-shoes-pink"
+									/>
+									<label
+										for="shoesPink"
+										class="flex-center color__label color__label--pink"
+									></label>
+								</div>
+								<div class="color__group">
+									<input
+										class="color__input"
+										data-color="hsl(224, 50%, 40%)"
+										id="shoesBlue"
+										name="shoesColor"
+										type="radio"
+										value="running-shoes-blue"
+									/>
+									<label
+										for="shoesBlue"
+										class="flex-center color__label color__label--blue"
+									></label>
+								</div>
+							</fieldset>
+							<button class="card__btn-submit" type="submit">Buy Now</button>
+						</form>
+					</div>
+				</article>
+			</section>
+		</main>
+	</body>
+</html>
